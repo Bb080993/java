@@ -11,6 +11,7 @@ public class AlfredTest {
         // Make some test greetings, providing any necessary data
         String testGreeting = alfredBot.basicGreeting();
         String testGuestGreeting = alfredBot.guestGreeting("Brittany Francis");
+        String test2GuestGreeting = alfredBot.guestGreeting("Brittany Francis", "afternoon");
         String testDateAnnouncement = alfredBot.dateAnnouncement();
         
         String alexisTest = alfredBot.respondBeforeAlexis(
@@ -29,5 +30,6 @@ public class AlfredTest {
         System.out.println(alexisTest);
         System.out.println(alfredTest);
         System.out.println(notRelevantTest);
+        System.out.println(test2GuestGreeting);
     }
 }
