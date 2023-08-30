@@ -19,6 +19,7 @@ public class Hashmatique {
         String song1=songList.get("Twinkle Twinkle Little Star");
         System.out.println(song1);
 
+        //Get all song titles and lyrics
         Set<String> keys = songList.keySet();
         for(String key:keys){
             System.out.println(key + ": " + (songList.get(key)));
