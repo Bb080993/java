@@ -80,7 +80,7 @@ public class BankAccount {
     }
     private String generateAccountNumber(){
         Random randNum= new Random();
-        String accountNumber;
+        String accountNumber="";
         for(int i=0; i<10; i++){
             int nextNum=randNum.nextInt(10);
             accountNumber+=nextNum;
