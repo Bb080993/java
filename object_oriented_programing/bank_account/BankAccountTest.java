@@ -24,6 +24,7 @@ public class BankAccountTest{
 
         account2.depositChecking(50);
         account2.depositSavings(99.99);
+        System.out.println(account2.getAccountNumber());
         // System.out.println(account2.getCheckingBalance());
         // System.out.println(account2.getSavingsBalance());
 
