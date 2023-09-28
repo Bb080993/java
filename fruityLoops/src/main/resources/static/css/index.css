@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+h1{
+	color: rgb(254,182,193);
+}
+.container{
+	margin: 0 auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.fruits{
+	border:10px solid rgb(254,182,193);
+	width:500px;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+}
+.col{
+	display: flex;
+	justify-content: space-around;
+	width:500px;
+}
+
