@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin:0 auto;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.forms{
+	display:flex;	
+	justify-content: space-around;
+}
+.register{
+	border: 2px solid black;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:center;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+	background-color: rgb(159,197,248);
+}
+.login{
+	border: 2px solid black;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:center;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+	background-color: rgb(159,197,248);
+}
+
+
+
+form{
+	
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+
+}
