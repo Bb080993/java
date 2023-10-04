@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	padding:20px;
+}
+h1{
+	color: rgb(153,0,255);
+}
+.main{
+	display:flex;
+
+	
+}
+form{
+	display:flex;
+	flex-direction: column;
+	margin:10px;
+	border: 1px solid black;
+	padding: 10px;
+	
+}
